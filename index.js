@@ -1,6 +1,4 @@
-function scuberGreetingForFeet(){
-  // Write your code here!
-}function scuberGreetingForFeet(distance) {
+function scuberGreetingForFeet(distance) {
   if (distance <= 400) {
     return 'This one is on me!';
   } else if (distance > 2000 && distance <= 2500) {
@@ -12,14 +10,11 @@ function scuberGreetingForFeet(){
   }
 }
 
-function ternaryCheckCity(){
-  // Write your code here!
-} function ternaryConfirmCity(city) 
+function ternaryCheckCity(city) {
   return city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
+}
 
-function switchOnCharmFromTip(){
-  // Write your code here!
-}function switchOnCharmFromTip(tip) {
+function switchOnCharmFromTip(tip) {
   switch (tip) {
     case 'generous':
       return 'Thank you so much.';
@@ -28,4 +23,4 @@ function switchOnCharmFromTip(){
     default:
       return 'Bye.';
   }
-}
+} 
